@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    width:200px ;
+}
+button{
+    padding: 1rem 1.2rem;
+    border: 2px solid #a62440;
+    font-size: 1.4rem;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+
+}
