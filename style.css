@@ -65,4 +65,24 @@ p{
     line-height: 2;
     text-align: justify;
 }
+/* ***********card**************** */
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 20px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.15) ;
+    padding: 1rem;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+.card:nth-child(odd) {
+    flex-direction: row;
+}
+.card img{
+    width: 100%;
+}
+.card:nth-child(even){
+    flex-direction: row-reverse;
+}
 
